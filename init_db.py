@@ -10,9 +10,9 @@ from data.collections import School
 @gen.coroutine
 def create_schools():
     schools = [
-        {'name': u'广州大学', 'verifier': u''},
-        {'name': u'中山大学', 'verifier': u''},
-        {'name': u'华南理工大学', 'verifier': u''},
+        {'name': u'junio', 'verifier': u''},
+        {'name': u'juninho', 'verifier': u''},
+        {'name': u'junao', 'verifier': u''},
     ]
 
     # School.objects.delete()
